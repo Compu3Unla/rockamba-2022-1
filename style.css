@@ -1,0 +1,186 @@
+/* Estilos del header */
+.header {
+    margin: 0;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+    background-color: 070707;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hand{
+  
+}
+.menu {
+
+}
+
+.navbar {
+    
+}
+
+.listamenu {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+.menu-item {
+    margin: 10px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/*Estilos del main*/
+
+main {
+    margin: 0;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+    background-color: 263238;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: baseline;
+}
+
+/*Estilos Div Inicio*/
+
+.inicio {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-simple {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+
+}
+.titulopartido {
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo1 {
+    margin: 0;
+    padding: 5px;
+    font-family:'Poppins', sans-serif;
+    color: D63547;
+    font-size: 50px;
+}
+
+.rockearla {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 85px;
+}
+
+
+/*Estilos Div Buscadores*/
+
+.buscadores {
+    margin: 0;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.buscador {
+    margin: 30px;
+    padding: 0px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.texto {
+    font-family:'Poppins', sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+
+/*Estilos Div Carrusel*/
+
+.carrusel {
+    margin: 180px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-image: url(./circulo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.titulo-carrusel {
+    
+}
+.subtitulo {
+    font-family:'Poppins', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.cards-carrusel {
+
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-carrusel {
+    margin: 25px;
+    padding: 0;
+
+}
+
+
+/*_Estilos del Footer*/
+
+.footer {
+    margin: 0;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+    background-color: CE2135;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
