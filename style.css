@@ -4,15 +4,15 @@
     padding: 5px;
     height: auto;
     width: 100%;
-    background-color: 070707;
+    background-color: #070707;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.hand{
-  
+.logoheader{
+	width: 300px;
 }
 .menu {
 
@@ -27,26 +27,29 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    text-decoration: none;
-   
 }
 
 .menu-item {
     margin: 10px;
-    letter-spacing: 1px;
+}
+
+.item-menu {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    color: white;
+    font-size: 20px;
+	font-weight: ;
 }
 
 /*Estilos del main*/
 
-main {
+.main {
     margin: 0;
     padding: 5px;
     height: auto;
     width: 100%;
-    background-color: 263238;
+    background-color: #263238;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,14 +91,14 @@ main {
     margin: 0;
     padding: 5px;
     font-family:'Poppins', sans-serif;
-    color: D63547;
-    font-size: 50px;
+    color: #D63547;
+    font-size: 85px;
 }
 
 .rockearla {
     font-family: 'Abril Fatface', cursive;
     color: white;
-    font-size: 85px;
+    font-size: 180px;
 }
 
 
@@ -114,43 +117,102 @@ main {
 }
 
 .buscador {
-    margin: 30px;
+    margin: 50px;
     padding: 0px;
+    height: auto;
+    width: auto;
     border-radius: 5%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 30px;
+	font-weight: 600;
+}
+
+.boton-buscador {
+    margin: 5px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+.boton-main {
+    margin-left: 40px;
+    height: 50px;
+}
+
+.button {
+    width: 120px;
+    border-radius: 5px;
+    background-color: #FFE350;
     font-family:'Poppins', sans-serif;
     color: black;
     font-size: 1rem;
+    
+}
+
+.button-large {
+    width: 290px;
+    border-radius: 5px;
+    background-color: #FFE350;
+    font-family:'Poppins', sans-serif;
+    color: black;
+    font-size: 1rem;
+    
+}
+
+.button-borrar {
+    width: 100px;
+    border-radius: 5px;
+    background-color: grey;
+    font-family:'Poppins', sans-serif;
+    color: black;
+    font-size: 1rem;
+    
 }
 
 /*Estilos Div Carrusel*/
 
 .carrusel {
-    margin: 180px;
-    padding: 15px;
+    margin: 0px;
+    padding-top: 300px;
+	padding-bottom: 290px;
     width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    background-image: url(./circulo.svg);
+    background-image: url("./img/circulo.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment:unset;
 
 }
 
 .titulo-carrusel {
     
 }
+
+.sub-carrusel{
+	font-family:'Poppins', sans-serif;
+    color: white;
+    font-size: 70px;
+	font-weight: 900;
+}
+
 .subtitulo {
     font-family:'Poppins', sans-serif;
     color: white;
-    font-size: 2rem;
+    font-size: 45px;
+	font-weight: 600;
 }
 
 .cards-carrusel {
@@ -169,6 +231,33 @@ main {
 
 }
 
+.div-form {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-contacto {
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    font-family:'Poppins', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.form-item {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
 
 /*_Estilos del Footer*/
 
@@ -177,10 +266,133 @@ main {
     padding: 5px;
     height: auto;
     width: 100%;
-    background-color: CE2135;
+    background-color: #D63547;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.texto-white {
+    font-family:'Poppins', sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+.foot {
+    margin: 10px;
+
+    padding: 5px;
+
+
+
+}
+
+
+/*ESTILOS FRAME ARTISTAS*/
+
+.main-artistas {
+    margin: 0;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+    background-color: #263238;
+}
+
+.intro {
+    margin: 10px;
+    padding: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.subtitulo-red {
+    color: brown;
+    font-family:'Poppins', sans-serif;
+	font-weight: 800;
+    font-size: 75px;
+}
+
+.texto-normal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 32px;
+    text-align: justify;
+}
+
+/*Estilos div Tendencias*/
+
+.subtitulos-frameartistas {
+	margin: 10px;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: white;
+    font-weight: 600; 
+    text-align: left;
+
+}
+
+.div-artistas {
+    margin: 10px;
+    padding: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.card-artistas {
+    margin: 5px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.sub-card {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+   
+}
+
+.sub-estilo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.lugar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight:normal;
+
 }
