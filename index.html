@@ -13,21 +13,20 @@
 
 <body>
     <header class="header">
-
         <div class="namepage">
             <div class="hand">
-                <img class="logoheader" src="./img/logo Header.svg" alt="hand">
+                <a href="./index.html"><img class="logoheader" src="./img/logo-header.svg" alt="rockamba"></a>
             </div>
         </div>
 
         <div class="menu">
             <nav class="navbar">
                 <ul class="listamenu">
-                    <li class="menu-item"><a class="item-menu" href="./artistas.html">Artistas</a></li>
-                    <li class="menu-item"><a class="item-menu" href="">Espacios</a></li>
-                    <li class="menu-item"><a class="item-menu" href="">Agenda</a></li>
-                    <li class="menu-item"><a class="item-menu" href="">Noticias</a></li>
-                    <li class="menu-item"><a class="item-menu" href="">Iniciar Cesión</a></li>
+                    <li class="menu-item"><a class="item-menu" href="./pages/artistas.html">Artistas</a></li>
+                    <li class="menu-item"><a class="item-menu" href="#">Espacios</a></li>
+                    <li class="menu-item"><a class="item-menu" href="#">Agenda</a></li>
+                    <li class="menu-item"><a class="item-menu" href="#">Noticias</a></li>
+                    <li class="menu-item"><a class="item-menu" href="#">Iniciar Sesión</a></li>
                    
                 </ul>
             </nav>
@@ -57,19 +56,19 @@
         </div>
 
         <div class="buscadores">
-            <div class="buscador">
-                <img src="./img/FRAME HOME/foto de card de bandas.png" alt="foto card bandas">
-                <p class="texto">¿Tenes una banda y no sabés donde tocar?</p>
+			<div class="buscador">
+                <img src="./img/frame-home/foto de card de bandas.png" alt="foto card bandas">
+                <p class="texto texto-buscador">¿Tenés una banda y no sabés dónde tocar?</p>
                 <div class="boton-buscador">
-                    <img src="./img/FRAME HOME/pua chica negra.svg" alt="pua">
+                    <img src="./img/frame-home/pua-chica-negra.svg" alt="pua">
                     <button class="button button-large">Buscá Espacio</button>
                 </div>
             </div>
             <div class="buscador">
-                <img src="./img/FRAME HOME/foto de card de espacio.png" alt="foto card espacio">
-                <p class="texto">¿Tenes un espacio no conseguis bandas?</p>
+                <img src="./img/frame-home/foto de card de espacio.png" alt="foto card espacio">
+                <p class="texto texto-buscador">¿Tenés un espacio no conseguís bandas?</p>
                 <div class="boton-buscador">
-                    <img src="./img/geo chico.svg" alt="geo">
+                    <img src="./img/geo-chico.svg" alt="geo">
                     <button class="button button-large">Buscá Banda</button>
                 </div>
             </div>
@@ -81,24 +80,16 @@
             </div>
             <div class="cards-carrusel">
                 <div class="card-carrusel">
-                    <div>
-                        <a href=""><img src="./img/FRAME HOME/Card 5.png" alt="CLUB AUDIOVISUAL"></a>
-                    </div>
+					<a href="#"><img class="img-carrusel" src="./img/frame-home/Card 5.png" alt="CLUB AUDIOVISUAL"></a>
                 </div>
                 <div class="card-carrusel">
-                    <div>
-                        <a href=""><img src="./img/FRAME HOME/card 6.png" alt="MORA Y LOS METEGOLES"></a>
-                    </div>
+					<a href="#"><img class="img-carrusel" src="./img/frame-home/card 6.png" alt="MORA Y LOS METEGOLES"></a>
                 </div>
                 <div class="card-carrusel">
-                    <div>
-                        <a href=""><img src="./img/FRAME HOME/card 7.png" alt="LUCAS & THE WOODS"></a>
-                    </div>
+					<a href="#"><img class="img-carrusel" src="./img/frame-home/card 7.png" alt="LUCAS & THE WOODS"></a>
                 </div>
                 <div class="card-carrusel">
-                    <div>
-                        <a href=""><img src="./img/FRAME HOME/CARD 8.png" alt="VARICELA"></a>
-                    </div>
+					<a href="#"><img class="img-carrusel" src="./img/frame-home/CARD 8.png" alt="VARICELA"></a>
                 </div>
             </div>
         </div>
@@ -108,34 +99,33 @@
                 <h2 class="subtitulo">¿Tenés alguna pregunta?</h2>
             </div>
             <div class="form-contacto">
-                <form class="form" action="" method="" enctype="text/plain">
                     <fieldset class="form-cuadro">
                         <legend class="form-titulo">Contactanos</legend>
-                            <div class="form-item">
-                                <label for="name">Nombre</label>
-                                <input id="name" type="text" name="name" required>
-                            </div>
-                            <div class="form-item">
-                                <label for="name">Email</label>
-                                <input id="name" type="text" name="name" required>
-                            </div>
-                            <div class="form-item">
-                                <label for="name">Ciudad</label>
-                                <input id="name" type="text" name="name" required>
-                            </div>
-                            <div class="form-item">
-                                <label for="name">Telefono</label>
-                                <input id="name" type="text" name="name" required>
-                            </div>
-                            <div class="form-item">
-                                <label for="name">Comentarios</label>
-                                <textarea name="Comentar" id="" cols="30" rows="10"></textarea>
-                            </div>
-                            <div class="form-item">
-                                <input class="button-borrar" type="reset" value="Borrar">
-                                <input class="button" type="button" value="Enviar">
-                            </div>
-                   
+						<div class="formulario">
+							<div>
+								<div class="form-item">
+                                	<input class="input" type="text" name="name" placeholder="Nombre" required>
+								</div>
+								<div class="form-item">
+									<input class="input" type="text" name="name" placeholder="Email" required>
+								</div>
+								<div class="form-item">
+									<input class="input" type="text" name="name" placeholder="Ciudad" required>
+								</div>
+								<div class="form-item">
+									<input class="input" type="text" name="name" placeholder="Teléfono" required>
+								</div>
+							</div>
+                            <div>
+								<div class="form-item">
+									<textarea name="Comentar" placeholder="Comentarios" class="input" cols="30" rows="10"></textarea>
+								</div>
+								<div class="form-item botones-form">
+									<input class="button-borrar" type="reset" value="Borrar">
+									<input class="button" type="button" value="Enviar">
+								</div>
+							</div>
+						</div>
                     </fieldset>
                 </form>
                 
@@ -145,25 +135,25 @@
     </main>
 
     <footer class="footer">
-        <div class="division"><img src="./img/FRAME HOME/linea vertical.png" alt="linea vertical"></div>
+        <div class="division"><img src="./img/frame-home/linea vertical.png" alt="linea vertical"></div>
         <div class="copyright">
             <h2 class="subtitulo foot">Es tu movida</h2>
             <p class="texto-white foot">Copyright © 2022 Rockamba. Derechos Reservados.</p>
         </div>
-        <div class="division"><img src="./img/FRAME HOME/linea vertical.png" alt="linea vertical"></div>
+        <div class="division"><img src="./img/frame-home/linea vertical.png" alt="linea vertical"></div>
         <div class="footer-div">
-            <img class="foot" src="./img/FRAME HOME/informacion.png" alt="info">
-            <a class="foot texto-white" href="">Preguntas frecuentes</a>
+            <img class="foot" src="./img/frame-home/informacion.png" alt="info">
+            <a class="foot texto-white" href="#">Preguntas frecuentes</a>
         </div>
-        <div class="division"><img src="./img/FRAME HOME/linea vertical.png" alt="linea vertical"></div>
+        <div class="division"><img src="./img/frame-home/linea vertical.png" alt="linea vertical"></div>
         <div class="footer-div">
             <p class="texto-white foot">Redes</p>
-            <img class="foot" src="./img/FRAME HOME/bi_facebook.png" alt="facebook">
-            <img class="foot"  src="./img/FRAME HOME/ph_instagram-logo-fill.png" alt="instagram">
-            <img class="foot" src="./img/FRAME HOME/akar-icons_twitter-fill.png" alt="twitter">
-            <img class="foot" src="./img/FRAME HOME/fa6-brands_youtube.png" alt="youtube">
+            <a href="https://es-la.facebook.com/"><img class="foot" src="./img/frame-home/bi_facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img class="foot"  src="./img/frame-home/ph_instagram-logo-fill.png" alt="instagram"></a>
+            <a href="https://twitter.com/?lang=es"><img class="foot" src="./img/frame-home/akar-icons_twitter-fill.png" alt="twitter"></a>
+            <a href="https://www.youtube.com/"><img class="foot" src="./img/frame-home/fa6-brands_youtube.png" alt="youtube"></a>
         </div>
-        <div class="division"><img src="./img/FRAME HOME/linea vertical.png" alt="linea vertical"></div>
+        <div class="division"><img src="./img/frame-home/linea vertical.png" alt="linea vertical"></div>
 
     </footer>
 
