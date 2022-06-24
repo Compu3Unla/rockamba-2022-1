@@ -1,0 +1,13 @@
+Maquetado realizado desde Desktop hacia Mobile, resolución 1920 con medias queries en los siguientes Breakpoints 1200-768-480
+aplicados en el html de Artistas, ahí mismo utilizamos grid para la disposición de las cards. Estas cards tienen un espacio 
+entre el texto que no pudimos ajustarlo. Aclaración: en el css la formula de grid comentada no lo tomaba, tuvimos que ponerlo de esta forma para que funcione. 
+Son los únicos 4 errores que marca la hoja de estilos:
+
+/*	grid-template-columns: repeat (5, 1fr); -- ESTE NO ME FUNCIONÓ*/
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+Por falta de tiempo no llegamos a realizar el html de la intro con el video de presentación.
+Las cards tienen aplicadas animaciones de scale con transform.
+Además del uso de Hover en el menú y el footer. Estan linkeadas las redes sociales y los html entre sí, 
+aclaración: Todas las cards de artistas están linkeadas al html de la banda Ciruelo. 
+Todas las bandas son reales, savage es de Lanús.
