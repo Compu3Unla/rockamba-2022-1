@@ -1,0 +1,5 @@
+Realizamos el responsive completo desde Desktop hacia Mobile en htmls Artistas y banda-ciruelo en los breakpoints 1200 y 600 (en la entrega habia hecho solo la de Artistas).
+
+Agregamos la Galeria Fancy-Box en el html de banda-ciruelo, y modifiqué varias medidas del resto de la page para adaptar a responsive.
+
+Agregamos el html de bienvenida como index con una animación en el logo, luego redirigimos a el home que es la pagina principal y también agregamos otra animación.
