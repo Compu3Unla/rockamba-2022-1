@@ -13,4 +13,3 @@ Equipo con temática "Ocio y recreación".
 ## Correcciones
 * Hay varios archivos mal nombrados (con mayúsculas y espacios)
 * Se presenta un scroll horizontal que se arregla agregando a las secciones que tienen conflicto la propiedad "box-sizing: border-box" desde css
-* 
