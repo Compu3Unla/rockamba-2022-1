@@ -7,7 +7,10 @@ Equipo con temática "Ocio y recreación".
 
 ## Notas útiles
 * Se realizó responsive de 600px y 1200px en Artistas y el perfil de la banda Ciruelo 
-* Se ingresa al sitio tocando 
+* Se ingresa al sitio tocando el nombre del splash
+* Sólo funciona el home y artistas.
 
 ## Correcciones
-* En la primer página no están linkeadas las fuentes
+* Hay varios archivos mal nombrados (con mayúsculas y espacios)
+* Se presenta un scroll horizontal que se arregla agregando a las secciones que tienen conflicto la propiedad "box-sizing: border-box" desde css
+* 
